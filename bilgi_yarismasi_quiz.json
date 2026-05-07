@@ -1,0 +1,368 @@
+[
+  {
+    "soru": "Koşul yapılarında hangi anahtar kelime kullanılır?",
+    "secenekler": ["A) for", "B) while", "C) if", "D) def"],
+    "dogru_cevap": "C) if",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Python hangi tür bir programlama dilidir?",
+    "secenekler": ["A) Derleyici tabanlı düşük seviye dil", "B) Yorumlanan yüksek seviye dil", "C) Sadece mobil uygulama dili", "D) İşletim sistemi dili"],
+    "dogru_cevap": "B) Yorumlanan yüksek seviye dil",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Python'da açıklama satırı hangi sembolle başlar?",
+    "secenekler": ["A) //", "B) /*", "C) #", "D) --"],
+    "dogru_cevap": "C) #",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi döngü yapısıdır?",
+    "secenekler": ["A) input", "B) print", "C) for", "D) type"],
+    "dogru_cevap": "C) for",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi karşılaştırma operatörüdür?",
+    "secenekler": ["A) =", "B) ==", "C) +=", "D) //"],
+    "dogru_cevap": "B) ==",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "print(\"a\"+\"b\"+\"c\") çıktısı nedir?",
+    "secenekler": ["A) abc", "B) a b c", "C) Hata", "D) ab c"],
+    "dogru_cevap": "A) abc",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Bir koşul doğru değilse çalışan blok hangi kelime ile yazılır?",
+    "secenekler": ["A) for", "B) else", "C) elif", "D) break"],
+    "dogru_cevap": "B) else",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Matplotlib'de grafiği ekrana basmak için hangi fonksiyon kullanılır?",
+    "secenekler": ["A) show()", "B) print()", "C) display()", "D) draw()"],
+    "dogru_cevap": "A) show()",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Koşul sağlandığı sürece çalışan döngü hangisidir?",
+    "secenekler": ["A) while", "B) for", "C) def", "D) class"],
+    "dogru_cevap": "A) while",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "for döngüsünde sayı aralığı üretmek için hangi fonksiyon kullanılır?",
+    "secenekler": ["A) len()", "B) input()", "C) range()", "D) sort()"],
+    "dogru_cevap": "C) range()",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Fonksiyon çağırmak ne anlama gelir?",
+    "secenekler": ["A) Yeni değişken oluşturmak", "B) Fonksiyonu çalıştırmak", "C) Listeyi sıralamak", "D) Dosya açmak"],
+    "dogru_cevap": "B) Fonksiyonu çalıştırmak",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Tuple oluşturmak için genelde hangi parantez kullanılır?",
+    "secenekler": ["A) []", "B) ()", "C) {}", "D) //"],
+    "dogru_cevap": "B) ()",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Listenin sonuna eleman eklemek için hangi metot kullanılır?",
+    "secenekler": ["A) append()", "B) add()", "C) push()", "D) insertlast()"],
+    "dogru_cevap": "A) append()",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Liste elemanlarını sıralamak için hangi metot kullanılır?",
+    "secenekler": ["A) order()", "B) sort()", "C) arrange()", "D) rank()"],
+    "dogru_cevap": "B) sort()",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Bir metindeki tüm harfleri büyütmek için hangi metot kullanılır?",
+    "secenekler": ["A) upper()", "B) big()", "C) capital()", "D) large()"],
+    "dogru_cevap": "A) upper()",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Bir metindeki tüm harfleri küçültmek için hangi metot kullanılır?",
+    "secenekler": ["A) lower()", "B) small()", "C) down()", "D) mini()"],
+    "dogru_cevap": "A) lower()",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Dosya açmak için hangi fonksiyon kullanılır?",
+    "secenekler": ["A) read()", "B) file()", "C) open()", "D) write()"],
+    "dogru_cevap": "C) open()",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Python büyük-küçük harf duyarlı mıdır?",
+    "secenekler": ["A) Hayır", "B) Evet", "C) Bazen", "D) Sadece sayılarda"],
+    "dogru_cevap": "B) Evet",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Bir dosyayı okumak için kullanılan kip hangisidir?",
+    "secenekler": ["A) w", "B) a", "C) r", "D) x"],
+    "dogru_cevap": "C) r",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Bir listedeki tüm elemanları silmek için hangi metot kullanılır?",
+    "secenekler": ["A) delete()", "B) clear()", "C) removeall()", "D) empty()"],
+    "dogru_cevap": "B) clear()",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Python'da kullanıcıdan alınan veri varsayılan olarak hangi türdedir?",
+    "secenekler": ["A) int", "B) float", "C) str", "D) bool"],
+    "dogru_cevap": "C) str",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Python programlama dilinin geliştiricisi kimdir?",
+    "secenekler": ["A) Guido van Rossum", "B) Ramazan Özgür Dogan", "C) Sait Alp", "D) Oğuzhan Topal"],
+    "dogru_cevap": "A) Guido van Rossum",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Bir dosyanın sonuna ekleme yapmak için kullanılan kip hangisidir?",
+    "secenekler": ["A) a", "B) w", "C) r", "D) e"],
+    "dogru_cevap": "A) a",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Dosyadan tüm içeriği okumak için hangi metot kullanılabilir?",
+    "secenekler": ["A) get()", "B) read()", "C) take()", "D) all()"],
+    "dogru_cevap": "B) read()",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Dosyayı işimiz bitince kapatmak için hangi metot kullanılır?",
+    "secenekler": ["A) end()", "B) stop()", "C) close()", "D) finish()"],
+    "dogru_cevap": "C) close()",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Algoritma nedir?",
+    "secenekler": ["A) Sadece kod yazmak", "B) Bir problemi çözmek için adım adım yol", "C) Bilgisayar markası", "D) Dosya türü"],
+    "dogru_cevap": "B) Bir problemi çözmek için adım adım yol",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Python'da bir modülü veya kütüphaneyi eklemek için hangi kelime kullanılır?",
+    "secenekler": ["A) include", "B) using", "C) import", "D) library"],
+    "dogru_cevap": "C) import",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Çizilen grafiği ekranda göstermek için genellikle hangi komut kullanılır?",
+    "secenekler": ["A) plt.draw()", "B) plt.print()", "C) plt.show()", "D) plt.open()"],
+    "dogru_cevap": "C) plt.show()",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Python'da eşit değildir operatörü hangisidir?",
+    "secenekler": ["A) <>", "B) !=", "C) ^=", "D) ~="],
+    "dogru_cevap": "B) !=",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Akış şemasında başlangıç ve bitiş için hangi şekil kullanılır?",
+    "secenekler": ["A) Oval", "B) Elmas", "C) Dikdörtgen", "D) Kare"],
+    "dogru_cevap": "A) Oval",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Akış şemasında işlem adımı için hangi şekil kullanılır?",
+    "secenekler": ["A) Daire", "B) Paralelkenar", "C) Dikdörtgen", "D) Elmas"],
+    "dogru_cevap": "C) Dikdörtgen",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Bir programdaki hataları bulma işlemine ne ad verilir?",
+    "secenekler": ["A) compile", "B) debug", "C) render", "D) install"],
+    "dogru_cevap": "B) debug",
+    "zorluk": "kolay"
+  },
+  {
+    "soru": "Bir dosyadan tek satır okumak için hangi fonksiyon kullanılır?",
+    "secenekler": ["A) readlines()", "B) readline()", "C) readall()", "D) getline()"],
+    "dogru_cevap": "B) readline()",
+    "zorluk": "orta"
+  },
+  {
+    "soru": "np.arange(5) ne üretir?",
+    "secenekler": ["A) [1,2,3,4,5]", "B) [0,1,2,3,4]", "C) [5,6,7]", "D) hata"],
+    "dogru_cevap": "B) [0,1,2,3,4]",
+    "zorluk": "orta"
+  },
+  {
+    "soru": "Python'da global değişkenler nerede tanımlanır?",
+    "secenekler": ["A) fonksiyon içinde", "B) döngü içinde", "C) programın dışında", "D) sadece class içinde"],
+    "dogru_cevap": "C) programın dışında",
+    "zorluk": "orta"
+  },
+  {
+    "soru": "np.sum() ne işe yarar?",
+    "secenekler": ["A) ortalama alır", "B) toplam alır", "C) veri siler", "D) sıralar"],
+    "dogru_cevap": "B) toplam alır",
+    "zorluk": "orta"
+  },
+  {
+    "soru": "np.max() ne işe yarar?",
+    "secenekler": ["A) en küçük değeri bulur", "B) en büyük değeri bulur", "C) ortalama alır", "D) veri ekler"],
+    "dogru_cevap": "B) en büyük değeri bulur",
+    "zorluk": "orta"
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi derlenen dillere örnektir?",
+    "secenekler": ["A) Python", "B) JavaScript", "C) C", "D) PHP"],
+    "dogru_cevap": "C) C",
+    "zorluk": "orta"
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi Python'da matematiksel işlemler için sık kullanılan kütüphanelerdendir?",
+    "secenekler": ["A) numpy", "B) turtle", "C) os", "D) randomizer"],
+    "dogru_cevap": "A) numpy",
+    "zorluk": "orta"
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi veri analizi için yaygın kullanılan Python kütüphanesidir?",
+    "secenekler": ["A) pandas", "B) pygame", "C) tkinter", "D) flask"],
+    "dogru_cevap": "A) pandas",
+    "zorluk": "orta"
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi grafik çizimi için kullanılan Python kütüphanesidir?",
+    "secenekler": ["A) selenium", "B) matplotlib", "C) requests", "D) pillow"],
+    "dogru_cevap": "B) matplotlib",
+    "zorluk": "orta"
+  },
+  {
+    "soru": "Matplotlib kütüphanesi çoğunlukla hangi takma ad ile kullanılır?",
+    "secenekler": ["A) np", "B) pd", "C) mt", "D) plt"],
+    "dogru_cevap": "D) plt",
+    "zorluk": "orta"
+  },
+  {
+    "soru": "Matplotlib ile grafik çiziminde en sık kullanılan yapı hangisidir?",
+    "secenekler": ["A) import matplotlib.pyplot as plt", "B) import pandas as pd", "C) import numpy as np", "D) import graph as gr"],
+    "dogru_cevap": "A) import matplotlib.pyplot as plt",
+    "zorluk": "orta"
+  },
+  {
+    "soru": "Sütun grafiği oluşturmak için matplotlib'de hangi komut kullanılır?",
+    "secenekler": ["A) plt.hist()", "B) plt.bar()", "C) plt.line()", "D) plt.box()"],
+    "dogru_cevap": "B) plt.bar()",
+    "zorluk": "orta"
+  },
+  {
+    "soru": "Çizgi grafiği oluşturmak için matplotlib'de hangi komut kullanılır?",
+    "secenekler": ["A) plt.plot()", "B) plt.bar()", "C) plt.show()", "D) plt.axis()"],
+    "dogru_cevap": "A) plt.plot()",
+    "zorluk": "orta"
+  },
+  {
+    "soru": "Histogram oluşturmak için matplotlib'de hangi komut kullanılır?",
+    "secenekler": ["A) plt.hist()", "B) plt.bar()", "C) plt.scatter()", "D) plt.data()"],
+    "dogru_cevap": "A) plt.hist()",
+    "zorluk": "orta"
+  },
+  {
+    "soru": "Akış şemasında karar yapısı için hangi şekil kullanılır?",
+    "secenekler": ["A) Dikdörtgen", "B) Elmas", "C) Oval", "D) Üçgen"],
+    "dogru_cevap": "B) Elmas",
+    "zorluk": "orta"
+  },
+  {
+    "soru": "Aynı kodu tekrar tekrar yazmak yerine fonksiyon kullanmanın temel faydası nedir?",
+    "secenekler": ["A) Kodu uzatmak", "B) Kodu düzenli ve tekrar kullanılabilir yapmak", "C) Bilgisayarı yavaşlatmak", "D) Ekranı temizlemek"],
+    "dogru_cevap": "B) Kodu düzenli ve tekrar kullanılabilir yapmak",
+    "zorluk": "orta"
+  },
+  {
+    "soru": "with open() yapısının temel avantajı nedir?",
+    "secenekler": ["A) Dosyayı otomatik kapatması", "B) Ekranı temizlemesi", "C) Döngü kurması", "D) Liste oluşturması"],
+    "dogru_cevap": "A) Dosyayı otomatik kapatması",
+    "zorluk": "orta"
+  },
+  {
+    "soru": "Bir listedeki belirli bir elemanı silmek için hangi metot kullanılabilir?",
+    "secenekler": ["A) remove()", "B) erase()", "C) clearone()", "D) delete()"],
+    "dogru_cevap": "A) remove()",
+    "zorluk": "orta"
+  },
+  {
+    "soru": "Matplotlib kütüphanesinde grafik çizmek için hangi modül kullanılır?",
+    "secenekler": ["A) matplotlib.core", "B) matplotlib.pyplot", "C) matplotlib.draw", "D) matplotlib.graph"],
+    "dogru_cevap": "B) matplotlib.pyplot",
+    "zorluk": "orta"
+  },
+  {
+    "soru": "plt.plot() fonksiyonu ne işe yarar?",
+    "secenekler": ["A) veri siler", "B) grafik çizer", "C) veri okur", "D) veri kaydeder"],
+    "dogru_cevap": "B) grafik çizer",
+    "zorluk": "orta"
+  },
+  {
+    "soru": "Matplotlib'de grafik başlığı eklemek için hangi fonksiyon kullanılır?",
+    "secenekler": ["A) plt.name()", "B) plt.title()", "C) plt.label()", "D) plt.head()"],
+    "dogru_cevap": "B) plt.title()",
+    "zorluk": "orta"
+  },
+  {
+    "soru": "Pandas'ta tablo yapısı hangi veri tipi ile temsil edilir?",
+    "secenekler": ["A) list", "B) tuple", "C) DataFrame", "D) dict"],
+    "dogru_cevap": "C) DataFrame",
+    "zorluk": "orta"
+  },
+  {
+    "soru": "open(\"veri.txt\",\"w\") ne yapar?",
+    "secenekler": ["A) Dosyayı yazar", "B) Dosyaya ekler", "C) Dosyayı silip yazar", "D) Hata verir"],
+    "dogru_cevap": "C) Dosyayı silip yazar",
+    "zorluk": "orta"
+  },
+  {
+    "soru": "mesaj=\"Hata:404\"; mesaj.split(\":\")[1] sonucu nedir?",
+    "secenekler": ["A) Hata", "B) 404", "C) :", "D) Hata:404"],
+    "dogru_cevap": "B) 404",
+    "zorluk": "orta"
+  },
+  {
+    "soru": "tuple([1,2,3]) sonucu nedir?",
+    "secenekler": ["A) (1,2,3)", "B) [1,2,3]", "C) {1,2,3}", "D) Hata"],
+    "dogru_cevap": "A) (1,2,3)",
+    "zorluk": "orta"
+  },
+  {
+    "soru": "[x for x in [1,2,3]] ifadesi ne döndürür?",
+    "secenekler": ["A) Liste", "B) String", "C) Tuple", "D) Boolean"],
+    "dogru_cevap": "A) Liste",
+    "zorluk": "orta"
+  },
+  {
+    "soru": "Python'da bir liste argüman olarak fonksiyona gönderildiğinde yapılan değişiklikler dışarıyı etkiler mi?",
+    "secenekler": ["A) Evet", "B) Hayır", "C) Sadece int ise", "D) Sadece string ise"],
+    "dogru_cevap": "A) Evet",
+    "zorluk": "zor"
+  },
+  {
+    "soru": "Aşağıdaki kodun çıktısı nedir? import numpy as np; b = np.array([[[1,2],[3,4]],[[5,6],[7,8]]]); print(b[0,1,1])",
+    "secenekler": ["A) 2", "B) 4", "C) 5", "D) 6"],
+    "dogru_cevap": "B) 4",
+    "zorluk": "zor"
+  },
+  {
+    "soru": "zip([1,2],[\"x\",\"y\"]) sonucu nedir?",
+    "secenekler": ["A) [(1,x),(2,y)]", "B) [1,x,2,y]", "C) Hata", "D) None"],
+    "dogru_cevap": "A) [(1,x),(2,y)]",
+    "zorluk": "zor"
+  }
+]
