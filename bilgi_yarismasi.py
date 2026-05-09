@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 import random
-import pygame
+import winsound
 
 # -------------------------
 # DOSYADAN SORU OKUMA
@@ -18,12 +18,32 @@ def sorulari_yukle(dosya_adi):
         return []
 
 # -------------------------
-# SKOR KAYDET
+# SKOR KAYDET (JSON)
 # -------------------------
 def skor_kaydet(isim, skor):
-    with open("skorlar.txt", "a", encoding="utf-8") as f:
-        f.write(f"{isim} - {skor} puan\n")
 
+    try:
+
+        with open("skorlar.json", "r", encoding="utf-8") as f:
+            veriler = json.load(f)
+
+    except:
+
+        veriler = []
+
+    veriler.append({
+        "isim": isim,
+        "skor": skor
+    })
+
+    with open("skorlar.json", "w", encoding="utf-8") as f:
+
+        json.dump(
+            veriler,
+            f,
+            ensure_ascii=False,
+            indent=4
+        )
 # -------------------------
 # SORU SEÇ (EŞİT ZORLUK)
 # -------------------------
@@ -102,10 +122,16 @@ def cevap_kontrol(secim):
 
     if secim == dogru:
         skor += 10
-        dogru_ses.play()
+        winsound.PlaySound(
+             "dogru.wav",
+            winsound.SND_FILENAME | winsound.SND_ASYNC
+        )
         messagebox.showinfo("Sonuç", "Doğru!")
     else:
-        yanlis_ses.play()
+        winsound.PlaySound(
+            "yanlis.wav",
+            winsound.SND_FILENAME | winsound.SND_ASYNC
+        )
         messagebox.showerror("Sonuç", f"Yanlış! Doğru cevap: {dogru}")
 
     index += 1
@@ -115,21 +141,21 @@ def cevap_kontrol(secim):
 # SONUÇ
 # -------------------------
 def sonucu_goster():
+
     global kullanici_adi, skor
 
-    try:
-        with open("skorlar.json", "r", encoding="utf-8") as f:
-            veriler = json.load(f)
-    except:
-        veriler = []
+    # Skoru kaydet
+    skor_kaydet(kullanici_adi, skor)
 
-    veriler.append({"isim": kullanici_adi, "skor": skor})
-
-    with open("skorlar.json", "w", encoding="utf-8") as f:
-        json.dump(veriler, f, ensure_ascii=False, indent=4)
-
+    # Quiz ekranını kapat
     quiz_frame.pack_forget()
-    sonuc_label.config(text=f"{kullanici_adi}\nSkor: {skor}")
+
+    # Sonuç yazısını ayarla
+    sonuc_label.config(
+        text=f"{kullanici_adi}\nSkor: {skor}"
+    )
+
+    # Sonuç ekranını göster
     sonuc_frame.pack()
 # -------------------------
 # TEKRAR
@@ -141,10 +167,6 @@ def tekrar_baslat():
 # -------------------------
 # GUI
 # -------------------------
-pygame.mixer.init()
-
-dogru_ses = pygame.mixer.Sound("dogru.wav")
-yanlis_ses = pygame.mixer.Sound("yanlis.wav")
 root = tk.Tk()
 root.title("Quiz Oyunu")
 root.geometry("500x500")
@@ -163,7 +185,6 @@ isim_entry = tk.Entry(giris_frame, font=("Arial", 25, "bold"))
 isim_entry.pack(padx=25 ,pady=25)
 tk.Button(giris_frame, text="Başla", font=("Arial", 25, "bold") ,command=oyunu_baslat).pack(padx=25 ,pady=25)
 giris_frame.pack()
-root.bind("<Return>", lambda event: oyunu_baslat())
 
 # QUIZ
 quiz_frame = tk.Frame(root, bg="#1E2A38")
