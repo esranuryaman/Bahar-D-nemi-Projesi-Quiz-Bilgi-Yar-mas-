@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 import random
 import winsound
+import os
 
 # -------------------------
 # DOSYADAN SORU OKUMA
@@ -67,7 +68,12 @@ def soru_sec(tum_sorular):
 index = 0
 skor = 0
 aktif_sorular = []
-tum_sorular = sorulari_yukle("bilgi_yarismasi_quiz.json")
+dosya_yolu = os.path.join(
+    os.path.dirname(__file__),
+    "bilgi_yarismasi_quiz.json"
+)
+
+tum_sorular = sorulari_yukle(dosya_yolu)
 kullanici_adi = ""
 
 # -------------------------
