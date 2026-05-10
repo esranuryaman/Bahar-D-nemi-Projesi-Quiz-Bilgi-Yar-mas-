@@ -128,14 +128,22 @@ def cevap_kontrol(secim):
 
     if secim == dogru:
         skor += 10
+        ses_yolu = os.path.join(
+            os.path.dirname(__file__),
+            "dogru.wav"
+        )
         winsound.PlaySound(
-             "dogru.wav",
+             ses_yolu,
             winsound.SND_FILENAME | winsound.SND_ASYNC
         )
         messagebox.showinfo("Sonuç", "Doğru!")
     else:
+        ses_yolu = os.path.join(
+            os.path.dirname(__file__),
+            "yanlis.wav"
+        )
         winsound.PlaySound(
-            "yanlis.wav",
+            ses_yolu,
             winsound.SND_FILENAME | winsound.SND_ASYNC
         )
         messagebox.showerror("Sonuç", f"Yanlış! Doğru cevap: {dogru}")
